@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 
+=======
+Flask
+ollama
+python-dotenv
+>>>>>>> 7d4da87 (Secure Flask secret and update dependencies)

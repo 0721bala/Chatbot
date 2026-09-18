@@ -1,4 +1,6 @@
+import os
 from flask import Flask, render_template, request, jsonify, session
+from dotenv import load_dotenv
 
 from ollama import chat
 
@@ -9,11 +11,11 @@ from database import (
     get_statistics
 )
 
+load_dotenv()
 
 app = Flask(__name__)
 
-app.secret_key = "laptop-support-agent-2026"
-
+app.secret_key = os.getenv("FLASK_SECRET_KEY")
 
 # =========================================================
 # TROUBLESHOOTING DATABASE
