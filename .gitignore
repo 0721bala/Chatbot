@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+
+*.db
+support_tickets.json
+
+.env
+.vscode/
+Thumbs.db

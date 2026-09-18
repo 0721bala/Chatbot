@@ -1,0 +1,205 @@
+==================================================
+GENERAL LAPTOP TROUBLESHOOTING
+==================================================
+
+TOUCHPAD NOT WORKING
+
+Initial checks:
+1. Check whether the touchpad has been disabled using the laptop's
+   touchpad function key.
+2. Open Windows Settings > Bluetooth & devices > Touchpad.
+3. Make sure Touchpad is enabled.
+4. Restart the laptop.
+5. Check Device Manager for touchpad-related devices.
+6. Check whether the touchpad driver has a warning symbol.
+
+Information to collect:
+- Laptop brand
+- Laptop model
+- Windows version
+- Whether an external mouse works
+- Whether the touchpad appears in Device Manager
+
+Escalate if:
+- Touchpad remains unavailable after basic troubleshooting.
+- Touchpad is missing from Device Manager.
+- There may be a hardware issue.
+
+
+==================================================
+WI-FI NOT WORKING
+==================================================
+
+Initial checks:
+1. Make sure Wi-Fi is enabled.
+2. Check whether Airplane mode is enabled.
+3. Restart Wi-Fi.
+4. Restart the laptop.
+5. Check whether other devices can connect to the same network.
+6. Check the Wi-Fi adapter in Device Manager.
+
+If connected to Wi-Fi but there is no internet:
+1. Check whether other devices have internet.
+2. Disconnect and reconnect to the Wi-Fi network.
+3. Restart the router if appropriate.
+4. Check Windows network status.
+
+Information to collect:
+- Laptop brand
+- Laptop model
+- Wi-Fi network name
+- Error message
+- Whether other devices have internet
+
+
+==================================================
+BLUETOOTH NOT WORKING
+==================================================
+
+Initial checks:
+1. Open Settings > Bluetooth & devices.
+2. Make sure Bluetooth is enabled.
+3. Turn Bluetooth off and on.
+4. Restart the laptop.
+5. Remove and pair the Bluetooth device again.
+6. Check Device Manager for the Bluetooth adapter.
+
+If Bluetooth is missing:
+1. Check Device Manager.
+2. Check whether the Bluetooth adapter is disabled.
+3. Check whether a driver problem is reported.
+
+Information to collect:
+- Laptop brand
+- Laptop model
+- Bluetooth device type
+- Error message
+
+
+==================================================
+LAPTOP NOT CHARGING
+==================================================
+
+Initial checks:
+1. Check that the charger is connected correctly.
+2. Try another power socket.
+3. Check whether the charging indicator is visible.
+4. Check Windows battery status.
+5. Restart the laptop.
+6. Inspect the charger and charging port for obvious physical damage.
+
+Information to collect:
+- Laptop brand
+- Laptop model
+- Charger type
+- Charging indicator status
+- Battery percentage
+- Error message
+
+Escalate if:
+- Charger or charging port appears damaged.
+- Battery is swollen or physically damaged.
+- Laptop still does not charge after basic checks.
+
+
+==================================================
+LAPTOP OVERHEATING
+==================================================
+
+Initial checks:
+1. Place the laptop on a hard, flat surface.
+2. Make sure ventilation openings are not blocked.
+3. Check whether the fan is running.
+4. Close unnecessary applications.
+5. Open Task Manager and check CPU usage.
+6. Check whether the laptop is overheating during idle or heavy use.
+
+Information to collect:
+- Laptop model
+- When overheating occurs
+- Fan behavior
+- CPU usage
+- Whether the laptop shuts down unexpectedly
+
+
+==================================================
+KEYBOARD NOT WORKING
+==================================================
+
+Initial checks:
+1. Determine whether one key or multiple keys are affected.
+2. Restart the laptop.
+3. Check whether an external keyboard works.
+4. Check Device Manager > Keyboards.
+5. Look for driver warnings.
+
+Information to collect:
+- Laptop model
+- Number of affected keys
+- Whether external keyboard works
+- Error message
+
+
+==================================================
+DISPLAY PROBLEM
+==================================================
+
+Initial checks:
+1. Check whether the laptop powers on.
+2. Check whether the display is completely black or just dim.
+3. Try adjusting screen brightness.
+4. Restart the laptop.
+5. If available, test with an external monitor.
+6. Check display-related devices and drivers in Device Manager.
+
+Information to collect:
+- Laptop brand
+- Laptop model
+- Whether external display works
+- Whether the issue occurs during boot
+- Error message
+
+
+==================================================
+BITLOCKER
+==================================================
+
+IMPORTANT:
+Do not recommend deleting partitions or reinstalling Windows
+as an initial troubleshooting step.
+
+Before suggesting recovery actions, determine:
+1. Is the user seeing a BitLocker recovery screen?
+2. Is a recovery key being requested?
+3. Does the user have access to the Microsoft account or organization
+   account associated with the device?
+4. Is the laptop company-managed?
+
+If the recovery key cannot be located:
+Escalate to the appropriate IT administrator or support team.
+
+Do not guess or fabricate a BitLocker recovery key.
+
+
+==================================================
+GENERAL ESCALATION
+==================================================
+
+Escalate an issue when:
+- Basic troubleshooting has failed.
+- Hardware failure is suspected.
+- The user reports physical damage.
+- BIOS or firmware changes may be required.
+- BitLocker recovery requires organizational assistance.
+- Disk partitioning or data recovery is involved.
+- The user reports possible data loss.
+
+When escalating, summarize:
+1. User's reported problem
+2. Laptop brand
+3. Laptop model
+4. Windows version
+5. Steps already attempted
+6. Results of those steps
+7. Error messages
+8. Screenshots if available
